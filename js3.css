@@ -1,0 +1,38 @@
+body{
+    background: linear-gradient(rgb(100, 250, 165),rgb(249, 206, 126),rgb(248, 114, 114));
+    height: 600px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    color: white ;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.c1{
+    width: 400px;
+    height:180px;
+}
+.one:hover{
+    background:linear-gradient(rgb(115, 253, 180),rgb(113, 113, 246)); ;
+}
+.two:hover{
+    background:linear-gradient(rgb(253, 115, 138),rgb(113, 246, 237))
+}
+.three:hover{
+    background: linear-gradient(rgb(247, 201, 115),rgb(206, 107, 252));
+}
+.four:hover{
+    background: linear-gradient(rgb(115, 247, 243),rgb(189, 252, 107));
+}
